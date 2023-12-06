@@ -1,0 +1,94 @@
+.btn-theme {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 20px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+
+    &-primary {
+        color: $white;
+        border: 2px solid $secondary-color;
+        background-color: $secondary-color;
+        overflow: hidden;
+        clip-path: polygon(0 0,calc(100% - 20px) 0,100% 16px,100% 100%,21px 100%,0 calc(100% - 16px));
+
+        &:hover {
+            color: $secondary-color;
+            background: transparent;
+            border: 1px solid $secondary-color;
+            clip-path: polygon(0 0,calc(100% - 20px) 0,100% 16px,100% 100%,21px 100%,0 calc(100% - 16px));
+        }
+        &::before, &::after{
+            content: "";
+            position: absolute;
+            background-color: $secondary-color;
+            width: 60px;
+            height: 1px;
+            -webkit-transform: rotate(38deg);
+            -ms-transform: rotate(38deg);
+            transform: rotate(38deg);
+        }
+        &::before {
+            top: 0px;
+            right: -17px;
+        }
+        &::after{
+            bottom: 3px;
+            left: -15px;
+            -webkit-transform: rotate(37deg);
+            -ms-transform: rotate(37deg);
+            transform: rotate(37deg);
+        }
+    }
+    &-secondary{
+        color: $white;
+        border: 2px solid $secondary-color;
+        background-color: $secondary-color;
+        overflow: hidden;
+        clip-path: polygon(0 0,calc(100% - 20px) 0,100% 16px,100% 100%,21px 100%,0 calc(100% - 16px));
+
+        &:hover {
+            color: $secondary-color;
+            background: transparent;
+            border: 1px solid $secondary-color;
+            clip-path: polygon(0 0,calc(100% - 20px) 0,100% 16px,100% 100%,21px 100%,0 calc(100% - 16px));
+        }
+        &::before, &::after{
+            content: "";
+            position: absolute;
+            background-color: $secondary-color;
+            width: 60px;
+            height: 1px;
+            -webkit-transform: rotate(38deg);
+            -ms-transform: rotate(38deg);
+            transform: rotate(38deg);
+        }
+        &::before {
+            top: 2px;
+            right: -14px;
+        }
+        &::after{
+            bottom: 3px;
+            left: -15px;
+            -webkit-transform: rotate(37deg);
+            -ms-transform: rotate(37deg);
+            transform: rotate(37deg);
+        }
+    }
+
+    &-primary-outline {
+        color: $white;
+        border: 2px solid $white;
+
+        &:hover {
+            color: $white;
+            border: 2px solid $primary-color;
+            background-color: $primary-color;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+$primary-regular-font:Poppins-Regular;
+$primary-bold-font:Poppins-Bold;
+$primary-medium-font:Poppins-Medium;
+$secondary-regular-font:Cora;
+
+
+
+
+//fonts Path
+$fonts-path: "../fonts" !default;
+
+// colors
+
+$body-color: #000;
+$black: #000;
+$white: #fff;
+
+$secondary-color:rgb(172, 21, 41);
+$secondary-color-medium:rgb(227, 54, 77);
+$secondary-color-light:rgb(224, 88, 106);
+$secondary-color-2:rgb(152 37 51 / 76%);
+$tertiary-color:#235067;
+$tertiary-color-light:#1a6e99;
+
+
+$dark-grey:#363636;
+$grey: #444;
+$lightgray:#efefef;
+$grey-2: rgba(0, 0, 0, 0.5);
+$grey-3:#3b505b;
+
+
+$black-op-1: rgba(0, 0, 0, 0.1);
+$black-op-5: rgba(0, 0, 0, 0.5);
+$black-op-8: rgba(0, 0, 0, 0.8);
+$primary-color:#1fc8e9;
+$bg-light: rgba(248, 249, 250,1);
+$border-color: rgba(255, 255, 255, 0.3);
+$telegram-color:#0088cc;
+$whatsapp-color:#25d366;
+
+$transition: all ease .5s;
